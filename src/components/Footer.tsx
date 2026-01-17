@@ -83,10 +83,10 @@ const Footer = () => {
             <ul className="space-y-3">
               {[
                 "Machine Learning",
-                "Chatbots IA",
-                "Análisis Predictivo",
-                "Automatización",
-                "Visión Computacional",
+                "Desarrollo de Software",
+                "Apps Móviles",
+                "Plataformas Web",
+                "Automatización IA",
               ].map((service) => (
                 <li key={service}>
                   <a

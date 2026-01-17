@@ -71,8 +71,8 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto mb-12"
         >
-          Transformamos empresas con soluciones de IA personalizadas. 
-          Automatización, análisis predictivo y experiencias inteligentes 
+          Desarrollamos software a medida y soluciones de IA personalizadas. 
+          Automatización, aplicaciones web/móviles y experiencias inteligentes 
           para impulsar tu negocio al siguiente nivel.
         </motion.p>
 

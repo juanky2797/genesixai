@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Brain, Cpu, LineChart, MessageSquare, Shield, Workflow } from "lucide-react";
+import { Brain, Cpu, LineChart, MessageSquare, Shield, Workflow, Code, Smartphone, Globe, Database } from "lucide-react";
 
 const services = [
   {
@@ -21,6 +21,24 @@ const services = [
       "Anticipamos tendencias y comportamientos para que tomes decisiones informadas antes que tu competencia.",
   },
   {
+    icon: Code,
+    title: "Desarrollo de Software",
+    description:
+      "Aplicaciones web y empresariales a medida con arquitecturas modernas, escalables y mantenibles.",
+  },
+  {
+    icon: Smartphone,
+    title: "Apps Móviles",
+    description:
+      "Desarrollo de aplicaciones móviles nativas y multiplataforma con experiencias de usuario excepcionales.",
+  },
+  {
+    icon: Globe,
+    title: "Plataformas Web",
+    description:
+      "Sitios web, portales y plataformas SaaS con tecnologías de vanguardia y rendimiento optimizado.",
+  },
+  {
     icon: Workflow,
     title: "Automatización de Procesos",
     description:
@@ -33,10 +51,10 @@ const services = [
       "Reconocimiento de imágenes y videos para control de calidad, seguridad y análisis visual.",
   },
   {
-    icon: Shield,
-    title: "IA Segura y Ética",
+    icon: Database,
+    title: "Integración de Sistemas",
     description:
-      "Implementamos soluciones responsables con transparencia, privacidad y cumplimiento normativo.",
+      "Conectamos tus sistemas existentes con APIs, microservicios y soluciones cloud empresariales.",
   },
 ];
 
