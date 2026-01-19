@@ -105,6 +105,7 @@ const Footer = () => {
         <div className="pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-muted-foreground text-sm">
             © {currentYear} GenesixAI. Todos los derechos reservados.
+            <span className="block mt-1">GenesixAI is a trade name of Juan Carlos Montenegro Pino</span>
           </p>
           <p className="text-muted-foreground text-sm flex items-center gap-2">
             Hecho con ❤️ en Panamá 🇵🇦
